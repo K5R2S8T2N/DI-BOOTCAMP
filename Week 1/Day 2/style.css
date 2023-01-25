@@ -1,0 +1,53 @@
+#container{
+    border: 1px solid blue;
+    height: 300px;
+    display: flex;
+    /* on default all children elements are in a row (ie main axis is row) otherwise....*/
+    flex-direction: column;
+    /*flex-direction: row-reverse / column-reverse*/
+    justify-content: center; /* centers elements on main axis*/
+    /* justify-content: flex-end / flex-start */
+    /* justify-content: space-around / space-between */
+    align-items: flex-end; /* align content takes precedent? */
+    flex-wrap: wrap; 
+    /* flex-wrap: no-wrap */
+    align-content:center; /* for cross axis */
+}
+
+.box{
+    border: 1px solid red;
+    display: block;
+    /* needs to be block element to change width*/
+
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 5px;
+}
+
+#boxten{
+    align-self: flex-end; /* positioning an object on the cross axis */
+}
+
+#containerr{
+    border: 1px solid blue;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+#box2{
+    height: 50px;
+    width: 100px;
+    align-self: center; 
+}
+
+.boxx{
+    border: 1px solid red;
+    display: block;
+    text-align: center;
+    margin:5px;
+}

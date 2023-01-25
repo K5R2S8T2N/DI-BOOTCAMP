@@ -1,0 +1,101 @@
+#top{
+    height: 200px;
+    border: 4px solid rgb(179, 158, 186);
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#Kirsten{
+    font-size: 50px;
+    margin-right: 20px;
+    font-weight: lighter;
+    margin-top: -20px;
+
+}
+
+#Gaddie{
+    font-size: 40px;
+    margin-top: 100px;
+
+}
+#bottom{
+    height: 420px; 
+    border: 4px solid rgb(95, 123, 168);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#entire{
+    border: 5px dotted darkcyan;
+    background-color: rgb(255, 249, 254);
+}
+
+#profilepic{
+    width: 150px;
+    height: 150px;
+    align-self: flex-top;
+    margin-left: 300px;;
+    border-radius: 12px;
+    border: 10px solid white;
+}
+
+#contactprofile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+
+}
+
+#contact{
+    border: 5px solid rgb(232, 220, 220);
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    background-color: rgb(217, 240, 226);
+}
+
+#profile{
+    border: 5px solid rgb(232, 220, 220);
+    padding: 5px;
+    width: 800px;
+    margin: 5px;
+    background-color: rgb(214, 191, 247);
+
+}
+
+#educationworkexperience{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 250px;
+}
+
+#education{
+    border: 5px solid rgb(232, 220, 220);
+    padding: 5px;
+    width: 150px;
+    margin: 5px;
+    background-color: rgb(228, 239, 185);
+}
+
+#workexperience{
+    border: 5px solid rgb(232, 220, 220);
+    padding: 5px;
+    width: 800px;
+    margin: 5px;
+    background-color: rgb(234, 229, 255);
+}
+
+

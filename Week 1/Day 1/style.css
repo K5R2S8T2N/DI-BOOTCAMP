@@ -1,0 +1,14 @@
+#catTitle{
+    text-align: center;
+}
+
+img{
+    width:350px;
+    height:300px;
+   border:5px solid salmon;
+   display:block;
+   margin-right:auto;
+   margin-left:auto;
+
+
+}
