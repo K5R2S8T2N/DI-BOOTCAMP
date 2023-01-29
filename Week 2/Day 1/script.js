@@ -49,9 +49,9 @@
     // Prediction: It will output number as 15 is in the form of a number. 
     // Actual: number 
 
-//typeof(5.5)
-// Prediction: It will output float as 5.5 is in the form of a float. 
-// Actual: number 
+    typeof(5.5)
+    // Prediction: It will output float as 5.5 is in the form of a float. 
+    // Actual: number 
 
     typeof(NaN)
     // Prediction: It will output not a number or some other phrasing as NaN is for all forms but number.
