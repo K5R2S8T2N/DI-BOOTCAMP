@@ -112,56 +112,56 @@
 //exercise 6
     5 + "34"
     // Prediction: 39
-    // Actual:
+    // Actual: 534
 
     5 - "4"
     // Prediction: 1
-    // Actual:
+    // Actual: 1 
 
     10 % 5
-    // Prediction: 2
-    // Actual:
+    // Prediction: 0
+    // Actual: 0
 
     5 % 10
     // Prediction: 0.5
-    // Actual:
+    // Actual: 5 
 
     "Java" + "Script"
     // Prediction: JavaScript
-    // Actual:
+    // Actual: JavaScript
 
     " " + " "
     // Prediction:  (ie double space)
-    // Actual:
+    // Actual: "  "
 
     " " + 0
     // Prediction: 0 (ie space 0)
-    // Actual:
+    // Actual: " 0"
 
     true + true
-    // Prediction:
-    // Actual:
+    // Prediction: 2
+    // Actual: 2
 
     true + false
     // Prediction:
-    // Actual:
+    // Actual: 1 
 
     false + true
-    // Prediction:
-    // Actual:
+    // Prediction: 1 
+    // Actual: 1 
 
     false - true
-    // Prediction:
-    // Actual:
+    // Prediction: -1 
+    // Actual: -1 
 
     !true
-    // Prediction:
-    // Actual:
+    // Prediction: false 
+    // Actual: false 
 
     3 - 4
-    // Prediction:
-    // Actual:
+    // Prediction: -1 
+    // Actual: -1 
 
     "Bob" - "bill"
-    // Prediction:
-    // Actual:
+    // Prediction: NaN
+    // Actual: NaN
