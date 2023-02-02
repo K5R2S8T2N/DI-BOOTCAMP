@@ -162,6 +162,14 @@
         }
         return true; 
     }
+    //or
+    // function isBlank(stringToCheck){
+    //     if (stringToCheck.length === 0){
+    //         return true;
+    //     } else {
+    //         return false; 
+    //     }
+
 
 //exercise 2
     function abbrevName(fullName){
@@ -173,15 +181,34 @@
         }
         for (i=position; i<fullName.length; i++){
             if (fullName.charAt(i) === " "){
-                abbreviatedName = `${abbreviatedName} ${fullName.charAt(i+1)}.`
+                abbreviatedName = `${abbreviatedName} ${fullName.charAt(i+1)}.`;
             }
         }
-    return abbreviatedName;
+        return abbreviatedName;
     }
+
+    //or 
+    // function splitter(name) {
+    //     return `${name.split(" ")[0]} ${name.split(" ")[1].charAt(0)}.`;
+    // }
+
+        //string.split(separator, limit);
+        // limit = no. of splits (optional)
+        // returns in array (ie in function giving first word and first character at second word)
+    
+    //or 
+    // function splitter(name) {
+    //     let nameArray = name.split(" ");
+    //     let newName = `${nameArray[0]}`;
+    //     for (i =1; i< nameArray.length; i++){
+    //         newName = `${newName} ${nameArray[i].charAt(0)}.`;
+    //     }
+    //     return newName;
+    // }
 
 //exercise 3
     function swapCase(stringToSwapCase){
-        let swappedString=""
+        let swappedString="";
         for (i=0; i<stringToSwapCase.length; i++){
             if (stringToSwapCase.charAt(i) === stringToSwapCase.charAt(i).toUpperCase()){
                 swappedString = swappedString + stringToSwapCase.charAt(i).toLowerCase();
@@ -192,6 +219,20 @@
         return swappedString;
     }
     console.log(swapCase("The Quick Brown Fox"));
+
+    //or 
+    // function swapCase(sentance) {
+    //     let newSentance = [];
+    //     sentance.split("").forEach((element) => {
+    //       if (element === element.toUpperCase()) {
+    //         newSentance.push(element.toLowerCase());
+    //       } else {
+    //         newSentance.push(element.toUpperCase());
+    //       }
+    //     });
+    //     console.log(newSentance.join(""));
+    //   }
+    //   swapCase(sentance);
 
 //exercise 4
     function isOmnipresent(outerArray, argumentChecking){
@@ -219,3 +260,18 @@
         }
         return true;
     }
+
+    //or 
+    // let omniArray = [[3, 4], [8, 3, 2], [3], [9, 3], [5, 3], [4, 3]];
+    // function isOmnipresent(arr, val) {
+    // for (let i = 0; i < arr.length; i++) {
+    //     if (!arr[i].includes(val)) {
+    //     return false;
+    //     }
+    // }
+    // return true;
+    // }
+    // console.log(isOmnipresent(omniArray, 3));
+
+    // console.log(" ".indexOf(""));
+ 

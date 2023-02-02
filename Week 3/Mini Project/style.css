@@ -1,0 +1,52 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgb(245, 254, 226);
+}
+
+body{
+    padding: 50px;
+    border: 4px solid rgb(89, 158, 162);
+    border-radius: 5px;
+    background-image: url("https://thumbs.dreamstime.com/b/cartoon-landscape-lovely-cute-scenery-design-provided-empty-area-text-suitable-children-background-game-127291646.jpg");
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+#Titlebutton{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 222, 249);
+    border-radius: 10px;
+    border: 5px dashed salmon;
+    padding: 20px;
+    min-width: fit-content;
+}
+
+#title{
+    color: rgb(127, 55, 166);
+    margin: 20px;
+    margin-bottom: 60px;
+    font-size: 35px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(248, 240, 208);
+    padding: 20px;
+    border-radius: 40px;
+    border:4px solid rgb(226, 217, 162);
+}
+
+#button {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(87, 95, 150);
+    background-color: rgb(218, 243, 241);
+    color: rgb(75, 108, 179);
+    font-family: fantasy;
+    font-size: large;
+}
