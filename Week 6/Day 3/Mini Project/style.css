@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    margin:0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.giphy.com/media/TxVVB6PfWMjE4/200.webp");
+}
+
+#detailsContainer{
+    height: 300px;
+    border: 3px solid yellow;
+    width: 600px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#findSomeoneButton{
+    border: 2px solid yellow;
+    border-radius: 10px;
+    width: 170px;
+    height: 30px;
+    font-size: 18px;
+    background-color: rgb(255, 255, 240);
+}
+
+p{
+    margin: 10px;
+    font-family: paragraphFont, sans-serif;
+}
+
+#starWarsTitle{
+    color: yellow;
+    font-size: 72px;
+    font-family: starWarsFont, monospace;
+}
+
+#spinner{
+    color: white;
+
+}
+
+#loadingText{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+#loadingScreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face{
+    font-family: starWarsFont;
+    src: url(starjhol.ttf);
+}
+
+@font-face{
+    font-family: paragraphFont;
+    src: url(rebellion.ttf);
+}
+
+@font-face{
+    font-family: nameFont;
+    src: url(distantGalaxy.ttf);
+}

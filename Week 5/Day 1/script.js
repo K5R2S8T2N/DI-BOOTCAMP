@@ -100,13 +100,13 @@
 
  
 
-// //exercise 3
+//exercise 3
     const isString = (checked) => typeof checked === "string";
     console.log(isString('hello')); 
     console.log(isString([1, 2, 4, 0]));
 
 
-// //exercise 4
+//exercise 4
     const colors = ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"];
     let newString ="";
     colors.forEach((color, index) => {
@@ -115,7 +115,7 @@
     console.log(newString);
 
 
-// //exercise 5
+//exercise 5
     const colorss = ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"];
     const ordinal = ["th","st","nd","rd"];
 
@@ -132,7 +132,7 @@
         
     });
 
-// //exercise 6
+//exercise 6
     let bankAmount = 0;
     var VAT = 1.17;
     const details = ["+200", "-100", "+146", "+167", "-2900"];
@@ -146,5 +146,4 @@
     });
     console.log(bankAmount);
     
-
 

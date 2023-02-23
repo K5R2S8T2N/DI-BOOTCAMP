@@ -1,0 +1,20 @@
+#topBar{
+    background-color: rgb(42, 101, 42);
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#websiteTitle, #robotSearchBar {
+    margin: 3px;
+    font-family: 'SEGA LOGO FONT', sans-serif;
+}
+
+#robotSearchBar{
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(72, 161, 57);
+    padding: 4px;
+}
